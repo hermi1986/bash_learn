@@ -1,0 +1,12 @@
+#!/bin/sh
+# Verschiedene Hallo Welts
+echo "Hallo,	Welt!"
+echo "Hallo, Welt!"
+echo "Hallo * Welt!"
+echo Hallo * Welt
+echo Hallo		Welt
+echo "Hallo" Welt
+echo Hallo "	"	Welt
+echo "Hallo "*" Welt!"
+echo 'Hallo' Welt!
+echo `Hallo` Welt!
