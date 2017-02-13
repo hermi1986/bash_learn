@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "MEINE_VARIABLE ist: $MEINE_VARIABLE"
+MEINE_VARIABLE="Hallo zusammen!"
+echo "MEINE_VARIABLE ist: $MEINE_VARIABLE"
