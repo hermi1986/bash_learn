@@ -6,4 +6,8 @@
 
 then und fi sind bei if-else Konstrukt zwingend vorausgesetzt
 
+case MUSS auf esac enden!
 
+einzelne cases werden mit Punkt) eingeleitet und müssen auf ;; enden
+
+*) ist sonst bei case
