@@ -1,3 +1,9 @@
 : ist immer TRUE (für while-loop)
+
 [ ... ] Shortcut für test -> muss mit leerzeichen umgeben sein
+
 [ ... ] && ... || ... -> Shortcut für If-Else (unübersichtlich)
+
+then und fi sind bei if-else Konstrukt zwingend vorausgesetzt
+
+
