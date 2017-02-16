@@ -32,3 +32,5 @@ $! enthält PID des zuletzt gestarteten Hintergrundprozesses
 
 $IFS -> Internal Field Separator (normalerweise SPACE TAB NEWLINE) -> Vor dem verändern besser Kopie erzeugen
 (sollte immer in "" gesetzt werden, wegen merkwürdigen Zeichen)
+
+${Variable:-Standardwert} -> Auf diese Art kann ein Standardwert für eine Variable festgelegt werden
