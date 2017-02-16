@@ -1,5 +1,7 @@
 : ist immer TRUE (für while-loop)
 
+Variablen nach $ zur Sicherheit immer in {  } setzen, dann weis Shell genau, Wann Name aufhört
+
 [ ... ] Shortcut für test -> muss mit leerzeichen umgeben sein
 
 [ ... ] && ... || ... -> Shortcut für If-Else (unübersichtlich)
