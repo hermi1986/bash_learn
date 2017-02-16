@@ -34,3 +34,11 @@ $IFS -> Internal Field Separator (normalerweise SPACE TAB NEWLINE) -> Vor dem ve
 (sollte immer in "" gesetzt werden, wegen merkwürdigen Zeichen)
 
 ${Variable:-Standardwert} -> Auf diese Art kann ein Standardwert für eine Variable festgelegt werden
+
+${Variable:=Standardwert} -> gleiches wie oben, nur dass Variable gesetzt wird, wenn sie undefiniert ist
+
+`Kommandos` -> Fängt Standardausgabe von Kommandos auf, so dass sie in Variable überwiesen werden können
+
+Funktion: Name() { Kommandos }
+
+Für Libraries mit Funktionen: Shebang-Zeile weglassen! (Sonst wird neue Shell geöffnet)
