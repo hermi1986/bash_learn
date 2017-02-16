@@ -11,3 +11,22 @@ case MUSS auf esac enden!
 einzelne cases werden mit Punkt) eingeleitet und müssen auf ;; enden
 
 *) ist sonst bei case
+
+$# ist Anzahl übergebener Parameter
+
+$0 ist Name des Programms
+
+$1 ... $9 sind erste 9 Parameter
+
+$@ sind alle Parameter ($* ist ähnlich, erlaubt aber keine Whitespaces -> vermeiden)
+
+shift verschiebt die variablenwerte eins nach vorne -> $2 wird $1
+
+$? enthält Rückgabewert des letzten Programms
+
+$$ enthält PID der aktuellen Shell
+
+$! enthält PID des zuletzt gestarteten Hintergrundprozesses
+
+$IFS -> Internal Field Separator (normalerweise SPACE TAB NEWLINE) -> Vor dem verändern besser Kopie erzeugen
+(sollte immer in "" gesetzt werden, wegen merkwürdigen Zeichen)
